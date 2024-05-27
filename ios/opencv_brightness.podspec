@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/AnthonyFisi/opencv_brigthness.git', :tag => s.version.to_s }
     s.source_files     = 'Classes/**/*.{h,m}'
     s.dependency 'Flutter'
-    s.ios.deployment_target = '12.0'
+    s.ios.deployment_target = '11.0'
     s.dependency 'OpenCV'
   end
